@@ -1,0 +1,80 @@
+section{
+    padding: 160px 15% 120px;
+}
+header{
+    width: 100%;
+    background: var(--light-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 10%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.logo img{
+    width: 47px;
+    height: 47px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.navList{
+    display: flex;
+}
+
+.navList a{
+    color: var(--text-light);
+    margin: 0 25px;
+    font-weight: 500;
+    font-size: var(--headline-text);
+    line-height: 27px;
+}
+.navList a:hover{
+    color: var(--primary-color);
+}
+.navList a.active{
+    border-bottom: 2px solid var(--primary-color);
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.box-icon{
+    display: flex;
+    align-items: center;
+}
+.box-icon i{
+    font-size: var(--icon-size);
+    margin-right: 15px;
+}
+.sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-color);
+    border-radius: 50px;
+    width: 100px;
+}
+.sign-in i{
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+.sign-in p{
+    font-size: var(--button-text);
+    font-weight: 700;
+    padding: 5px;
+}

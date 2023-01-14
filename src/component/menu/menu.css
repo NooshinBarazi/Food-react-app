@@ -1,0 +1,83 @@
+.menu {
+  padding: 160px 10% 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-text {
+  text-align: center;
+  width: 518px;
+  margin-bottom: 32px;
+}
+.menu-text span {
+  font-weight: 500;
+  font-size: var(--second-title-text);
+  line-height: 28px;
+  margin-bottom: 6px;
+}
+.menu-text h2 {
+  font-weight: 700;
+  font-size: var(--header-text);
+  line-height: 40px;
+  margin-bottom: 27px;
+}
+.menu-text p {
+  font-size: var(--second-title-text);
+  line-height: 28px;
+  color: var(--text-light);
+}
+.popular-menu {
+  display: grid;
+  grid-auto-flow:column;  
+  gap: 40px;
+  overflow: auto;
+}
+
+.menu-item {
+  background: var(--bg-comment);
+  width: 250px;
+  height: 371px;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.food-text{
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    height: 112px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+border-bottom: 1px solid var(--bg-comment);
+}
+.title-text h5{
+    font-size: var(--headline-text);
+    line-height: 25px;
+    font-weight: 500;
+    margin-top: 14px;
+}
+.title-text p{
+    font-size: var(--body-text);
+    line-height: 22px;
+    color: var(--text-light);
+    margin-top: 5px;
+}
+.price-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    font-size: var(--second-title-text);
+    font-weight: 500;
+}
+.price-text i{
+   color: var(--primary-color);
+}
+
+.moreBtn{
+    margin-top: 71px;
+}
+

@@ -1,0 +1,39 @@
+.comment {
+  padding: 120px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.customers{
+    padding: 40px;
+}
+
+.customers-text{
+  width: 481px;
+  height: 117px;
+  margin-bottom: 32px;
+}
+.customers-text span {
+  font-weight: 500;
+  font-size: var(--second-title-text);
+  line-height: 28px;
+}
+.customers-text h3 {
+  font-weight: 700;
+  font-size: var(--header-text);
+  line-height: 40px;
+}
+
+.customers-comment{
+  display: grid;
+  grid-auto-flow:column;
+  gap: 1.5rem;
+  overflow: auto;
+}
+.comment-box {
+  width: 452px;
+  height: 210px;
+  background: var(--bg-comment);
+  border-radius: 5px;
+  padding: 20px;
+}
